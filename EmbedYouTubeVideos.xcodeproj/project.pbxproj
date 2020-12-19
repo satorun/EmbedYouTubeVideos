@@ -15,7 +15,6 @@
 		23610EE1258DD36400210FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23610EDF258DD36400210FCC /* LaunchScreen.storyboard */; };
 		23610EEC258DD36400210FCC /* EmbedYouTubeVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23610EEB258DD36400210FCC /* EmbedYouTubeVideosTests.swift */; };
 		23610EF7258DD36400210FCC /* EmbedYouTubeVideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23610EF6258DD36400210FCC /* EmbedYouTubeVideosUITests.swift */; };
-		23610F08258DDB0600210FCC /* EmbededWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23610F07258DDB0600210FCC /* EmbededWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		23610EF2258DD36400210FCC /* EmbedYouTubeVideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbedYouTubeVideosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23610EF6258DD36400210FCC /* EmbedYouTubeVideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedYouTubeVideosUITests.swift; sourceTree = "<group>"; };
 		23610EF8258DD36400210FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23610F07258DDB0600210FCC /* EmbededWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbededWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				23610ED4258DD36400210FCC /* AppDelegate.swift */,
 				23610ED6258DD36400210FCC /* SceneDelegate.swift */,
 				23610ED8258DD36400210FCC /* ViewController.swift */,
-				23610F07258DDB0600210FCC /* EmbededWebView.swift */,
 				23610EDA258DD36400210FCC /* Main.storyboard */,
 				23610EDD258DD36400210FCC /* Assets.xcassets */,
 				23610EDF258DD36400210FCC /* LaunchScreen.storyboard */,
@@ -263,7 +260,6 @@
 			files = (
 				23610ED9258DD36400210FCC /* ViewController.swift in Sources */,
 				23610ED5258DD36400210FCC /* AppDelegate.swift in Sources */,
-				23610F08258DDB0600210FCC /* EmbededWebView.swift in Sources */,
 				23610ED7258DD36400210FCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV6V9Z74NW;
 				INFOPLIST_FILE = EmbedYouTubeVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV6V9Z74NW;
 				INFOPLIST_FILE = EmbedYouTubeVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
